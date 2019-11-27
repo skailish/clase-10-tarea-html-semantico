@@ -11,7 +11,6 @@
 
 <body>
     <!--HTML SEMANTICO-->
-
     <!--Header-->
     <header class="header">
         <div class="header-container">
@@ -32,58 +31,58 @@
             </div>
         </div>
     </header>
-    <!--Main-->
+    <!--MAIN-->
     <div class="container-main">
-        <aside>
-            <section class="section-aside">
-                <img src="ada-lovelace.jpg" alt="Ada Lovelace" class="img-aside">
-                <h1>Ada Lovelace</h1>
-                <p>Programadora</p>
-            </section>
+        <!--aside-->
+
+        <aside class="section-aside">
+            <img src="ada-lovelace.jpg" alt="Ada Lovelace" class="img-aside">
+            <h2>Ada Lovelace</h2>
+            <p>Programadora</p>
         </aside>
+        <!--main-->
         <main>
-            <section class="main-content">
-                <div class="profile-info-container">
+            <article class="post">
+                <header class="profile-info-container">
                     <img src="ada-lovelace.jpg" alt="Ada Lovelace" class="profile-img">
                     <p class="profile-name">Ada Lovelace</p>
+                </header>
+
+                <div class="main-post">
+                    <img src="gatito.jpg" alt="gatito" class="main-img">
+                    <h1 class="main-title">Lindo Gatito</h1>
+                    <p class="main-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam quisquam cumodiipsa, assumenda sint cumque deleniti asperiores cupiditate erferendis sapiente ex at placeatconsequatur a magni unde nam nisi? 
+                    </p>
+
+                    <footer class="main-action-link">
+                        <ul class="main-action-link-list">
+                            <li class="main-action-link-item">Editar</li>
+                            <li class="main-action-link-item">Eliminar</li>
+                            <li class="main-action-link-item">Archivar</li>
+                        </ul>
+                    </footer>
                 </div>
-
-                <img src="gatito.jpg" alt="gatito" class="main-img">
-
-                <h1 class="main-title">Lindo Gatito</h1>
-                <p class="main-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam quisquam cum modi
-                    ipsa, assumenda sint cumque deleniti asperiores cupiditate perferendis sapiente ex at placeat
-                    consequatur a magni unde nam nisi?</p>
-
-                <nav class="main-nav">
-                    <ul class="main-nav-list">
-                        <li class="main-nav-item">Editar</li>
-                        <li class="main-nav-item">Eliminar</li>
-                        <li class="main-nav-item">Archivar</li>
-                    </ul>
-                </nav>
-
-
-            </section>
-
-            <hr>
-            <section class="main-comment">
-                <div class="profile-info-container">
-                    <img src="comment-img.jpg" alt="Grace Hopper" class="profile-img">
-                    <p class="profile-name">Grace Hopper</p>
+                <hr>
+                <div class="main-comments">
+                    <article class="comment">
+                        <header class="profile-info-container">
+                            <img src="comment-img.jpg" alt="Grace Hopper" class="profile-img">
+                            <h2 class="profile-name">Grace Hopper</h2>
+                        </header>
+                        <p class="main-text">Love the cat</p>
+                        <footer class="main-action-link">
+                            <ul class="main-action-link-list">
+                                <li class="main-action-link-item">Votar</li>
+                                <li class="main-action-link-item">Guardar</li>
+                                <li class="main-action-link-item">Denunciar</li>
+                            </ul>
+                        </footer>
+                    </article>
                 </div>
-                <p class="main-text">Love the cat</p>
-                <nav class="main-nav">
-                    <ul class="main-nav-list">
-                        <li class="main-nav-item">Votar</li>
-                        <li class="main-nav-item">Guardar</li>
-                        <li class="main-nav-item">Denunciar</li>
-                    </ul>
-                </nav>
-            </section>
-            <hr>
-            <p class="main-text">Add comment</p>
-
+                <hr>
+                <p class="main-text">Add comment</p>
+            </article>
         </main>
     </div>
 </body>

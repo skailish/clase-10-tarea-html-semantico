@@ -111,7 +111,7 @@ main {
     box-shadow: 1px 1px 10px #aaa;
 }
 
-.main-content {
+.main-post {
     display: flex;
     flex-direction: column;
 }
@@ -121,17 +121,17 @@ main {
     
 }
 
-.main-title, .main-text, .main-nav {
+.main-title, .main-text, .main-action-link {
     padding-left: 30px;
 }
 
-.main-text, .main-comment {
+.main-text, .main-comments {
     color: #aaa;
     font-size: 14px;
 }
 
-/*MAIN nav */
-.main-nav-list, .main-nav {
+/*MAIN action-link */
+.main-action-link-list, .main-action-link {
     display: flex;
     list-style: none;
     font-size: 11px;
@@ -141,12 +141,12 @@ main {
     padding: 5px 15px;
 }
 
-.main-nav-item {
+.main-action-link-item {
     padding-right: 5px;
 }
 
 
-.main-comment {
+.main-comments {
     margin-top: 20px;
 }
 
